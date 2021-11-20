@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+.title{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 10px;
+}
+
+#brand{
+    font-weight: 700;
+    font-family: 'Rubik';
+}
+
+#detect{
+    font-weight: 600;
+}
+
+body{
+    background: url(Images/background.jpg) no-repeat center fixed; 
+    background-size: cover;
+        
+}
+.yellow{
+    color: #d38c09;
+}
+.red{
+    color: rgb(156, 34, 61);
+}
+.orange{
+    color:rgb(230, 105, 3);
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.px-300{
+display:flex;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+canvas{
+    aspect-ratio:auto 224 / 224;
+    max-width: 100%;
+    min-height: 100%t;
+}
+
+.block {
+    /* background-color: coral; */
+    width: 5em;
+    height: 5em;
+    /* border: 0.5em solid;
+    border-radius: 1em; */
+    margin: 0.5em
+} 
+
+
+
+/* .cow {
+    background-color: greenyellow;
+}
+
+.sheep{
+    background-color: khaki;
+}
+
+.chicken{
+    background-color:mediumaquamarine;
+} */
+
+
+
+
+#main{
+    margin-top: 40px;
+}
+@media (min-width: 992px) {
+    #inputimg{
+        width: 60%;
+    }
+    #main{
+        margin-top: 60px;
+    }
+}
